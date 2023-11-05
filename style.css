@@ -22,6 +22,7 @@ html, body {
     font-size: 1.5rem;
     padding: 0.6rem 0.4rem;
     border-radius: 10px;
+    text-align: center;
 }
 
 .cta-button--sec {}
@@ -67,8 +68,6 @@ html, body {
     justify-content: space-between;
     padding: 0;
     align-items: center;
-
-    background-color: grey;
 }
 
 .nav__link {
@@ -90,14 +89,63 @@ html, body {
 
 .hero {
     width: 100%;
-    height: 910px;
+    height: 710px;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     padding-top: 20px;
-}
-
-.hero-img-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero-img-container
+.hero__cta-msg {
+    color: white;
+    flex-basis: 40%;
+}
+
+.hero__cta-header {
+    font-size: 2.5rem;
+}
+
+.hero__cta-text {
+    line-height: 1.4;
+    font-size: 1.3rem;
+    margin-right: 40%;
+}
+
+.cta-button--hero {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.hero__img-container {
+    flex-basis: 45%;
+}
+
+.hero_cta-msg .hero__img-container {
+    flex-basis: 50%;
+}
+
+.hero__img {
+    width: 100%;
+    height: 360px;
+    background-image: url(./images/screen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 20px solid white;
+    border-radius: 30px;
+    transform: rotate(-6deg);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+
 /* END OF HERO */
