@@ -243,3 +243,50 @@ html, body {
 }
 
 /* END OF BANNER */
+
+/* END OF MAC-SECTION */
+.mac-section {
+    width: 100%;
+    height: 680px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.mac-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mac__img {
+    flex-basis: 50%;
+    width: 100%;
+    height: 550px;
+    background-image: url(./images/imac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+
+}
+
+.mac__text {
+    flex-basis: 35%;
+    align-self: flex-start;
+    font-weight: 200;
+}
+
+.mac__text-header {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.mac__text-body {
+    padding-right: 30%;
+    line-height: 2;
+}
+
+
+/* END OF MAC-SECTION */
