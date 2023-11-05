@@ -23,7 +23,9 @@ html, body {
     text-align: center;
 }
 
-.cta-button--sec {}
+.cta-button--sec {
+    background-color: #3CBDEB;
+}
 
 /* END OF COMMON */
 
@@ -34,6 +36,7 @@ html, body {
     position: fixed;
     width: 100%;
     padding-top: 20px;
+    z-index: 9999;
 
 }
 
@@ -108,7 +111,7 @@ html, body {
     line-height: 1.4;
     font-size: 1.3rem;
     margin-right: 40%;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .cta-button--hero {
@@ -217,3 +220,26 @@ html, body {
 
 
 /* END OF FEATURES */
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    height: 90px;
+    background-color: #F9FAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    width: 100%;
+    height: 30px;
+    background-image: url(./images/logos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+
+/* END OF BANNER */
