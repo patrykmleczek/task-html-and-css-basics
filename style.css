@@ -27,6 +27,14 @@ html, body {
     background-color: #3CBDEB;
 }
 
+.cta-button:hover {
+
+    filter: brightness(130%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.21);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
 
 
 /* END OF COMMON */
@@ -84,7 +92,9 @@ html, body {
     justify-content: center;
 }
 
-.nav__link-item {}
+.nav__shadow {
+    text-shadow: 1px 1px 5px #464646;
+}
 
 /* END OF NAVIGATION */
 
