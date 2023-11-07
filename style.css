@@ -538,3 +538,77 @@ html, body {
 
 
 /* END OF EMAIL FORM */
+
+/* COPYRIGHT */
+.copyright {
+    width: 100%;
+    height: 80px;
+    background-color: #464646;
+    color: white;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright__webscope {
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    basis: 90%;
+}
+
+.copyright__text {
+    font-size: 0.8rem;
+    padding-right: 20px;
+}
+
+.copyright__logo-container {
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.copyright__logo {
+    width: 92px;
+    height: 31px;
+    background-image: url(./images/webscope.svg);
+    image: white
+}
+
+
+.copyright__sm {
+    basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+}
+
+
+.copyright__sm-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.copyright__sm-container--tt {
+    background-image: url(./images/twitter.svg);
+
+}
+
+.copyright__sm-container--fb {
+    background-image: url(./images/facebook.svg);
+
+}
+
+
+/* END OF COPYRIGHT */
